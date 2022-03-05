@@ -6,7 +6,7 @@
 font-family: "Genesys";
 src: local("Genesys"),
   url("./fonts/Genesys/Genesys.ttf") format("truetype");
-  font-weight: regular;
+  font-weight: bold;
 }
 
 @font-face {

@@ -23,6 +23,8 @@ import {AiOutlineCheck} from 'react-icons/ai'
 import {BiLoader} from 'react-icons/bi'
 import articlesImage from '../assets/images/articles1.png'
 import { Link } from 'react-router-dom'
+import coin from '../assets/images/sampleCoin.png'
+
 
 class Home extends React.Component {
   constructor(props){
@@ -272,8 +274,80 @@ executeScroll = (ref) => ref.current.scrollIntoView()
           </div>
         </section>
 
-        <footer className='footer h-screen'>
+        <footer className='footer flex'>
+            <div className='boxFooterLeft'>
+                <div className='leftContent flex justify-center items-center'>
+                    <div>
+                      <img className="footerCoin" src={coin} alt=""/> 
+                    </div>
+                    <div>
+                      <div className='rightFromCoin'>
+                        <h2 className='footerTitle'>BIG</h2>
+                        <h2 className='footerTitle'>METAVERSE</h2>
+                      </div>
+                      <div>
+                        <h2 className='Licencies'>2022©</h2>
+                      </div>
+                      
+                      <div>
+                        <h2 className='Licencies'>BENUA INTEGRASI GLOBAL,</h2>
+                        <h2 className='Licencies'> ALL RIGHTS RESERVED.</h2>
+                      </div>
+                    </div>  
+                </div>
+            </div>
+            <div className='boxFooterRight' >
+            <div className='rightContent flex flex-col'>
+                  <div className='rowContent flex'>
+                    <div className='columnRight'>
+                      <h2 className='TitleColumnRight'>SiteMap</h2>
+                      <h2 className='subTitleColumnRight'>HOME</h2>
+                      <h2 className='subTitleColumnRight'>NFT</h2>
+                      <h2 className='subTitleColumnRight'>MARKETPLACE</h2>
+                      <h2 className='subTitleColumnRight'>BLOG</h2>
+                      <h2 className='subTitleColumnRight'>FORUM</h2>
+                    </div>
 
+                    <div className='columnRight'>
+                      <h2 className='TitleColumnRight'>Support</h2>
+                      <h2 className='subTitleColumnRight'>CONTACT US</h2>
+                      <h2 className='subTitleColumnRight'>SUPPORT</h2>
+                      <h2 className='subTitleColumnRight'>INSTRUCTION</h2>
+                      <h2 className='subTitleColumnRight'>FAQ</h2>
+                    </div>
+
+
+                    <div className='columnRight'>
+                      <h2 className='TitleColumnRight'>Legal</h2>
+                      <h2 className='subTitleColumnRight'>LEGAL COMPANY</h2>
+                      <h2 className='subTitleColumnRight'>PRIVACY & POLICY</h2>
+                      <h2 className='subTitleColumnRight'>WHITEPAPER</h2>
+                      <h2 className='subTitleColumnRight'>AUDIT REPORT</h2>
+                    </div>
+                  </div>
+
+                  <div className='rowContent flex'>
+                    <div className='columnRight'>
+                      <h2 className='TitleColumnRight'>Social</h2>
+                      <h2 className='subTitleColumnRight'>YOUTUBE</h2>
+                      <h2 className='subTitleColumnRight'>INSTAGRAM</h2>
+                      <h2 className='subTitleColumnRight'>FACEBOOK</h2>
+                      <h2 className='subTitleColumnRight'>TWITTER</h2>
+                      <h2 className='subTitleColumnRight'>TELEGRAM</h2>
+                    </div>
+
+                    <div className='columnRight2 flex flex-col'>
+                    <h2 className='TitleColumnRight'>Join Our Mailinglist</h2>
+                    <input type="email" className='inputEmail' placeholder='ex@gmail.com'/>
+                      <h2 className='subTitleColumnRight'>We will send you marketing promotions, special offers, inspiration, and policy updates via email.</h2>
+                    </div>
+
+                  </div>
+                  
+                  
+
+                </div>
+            </div>
         </footer>
         </div>
 
