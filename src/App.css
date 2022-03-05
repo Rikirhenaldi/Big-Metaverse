@@ -1,0 +1,576 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap');
+
+/* .font-face-gm {
+  font-family: "GoldmanBold";
+ } */
+
+ 
+ div section section div button.coverBlur {
+  /* backdrop-filter: blur(10px); */
+  filter: blur(2px)
+ }
+
+div section.section2, section.section3, section.section4, div.parentSectionFrom2 {
+  /* background-image: linear-gradient(to right,#080863, #040427); */
+  background-color: #040427;
+ } 
+
+ /* div.parentSectionFrom2{} */
+
+ div section div.bgGradient {
+   z-index: -2;
+ }
+ div section div.bgGradient2 {
+  z-index: -2;
+  background-image: linear-gradient(#071052, #040427);
+  filter: blur(2px);
+  opacity: 0.4;
+}
+div.coverBlurButton {
+  z-index: -2;
+  opacity: 20;
+  filter: blur(2px);
+}
+
+div div.videoWrapper {
+  width: '100%';
+  height: '100vh';
+  background-color: #fff;
+}
+
+nav.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav span div.logoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+nav span div img.assets {
+  width: 50px;
+  height: 60px;
+}
+
+nav ul.listWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li.listItem {
+  font-family: 'Work Sans';
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+div div div.firstSection {
+  font-family: 'Genesys';
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+} 
+div div div div h1.centerTitle {
+  font-size: 50px;
+  line-height: 70.58px;
+}
+div div div div h2.description {
+  font-family: 'Work Sans';
+  font-size: 14px;
+  line-height: 17px;
+}
+div section div button.glassButton {
+  backdrop-filter: blur(3px);
+}
+
+/* section 2 */
+
+div section div div div.boxTitle {
+  font-family: 'Genesys';
+  color: white;
+  padding-top: 100px;
+  font-size: 40px;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+
+button.borderLeftButton {
+  border-right: 1px solid #323282;
+  border-left: 1px solid rgb(59, 105, 197);
+  /* border-bottom: 1px solid rgb(243 244 246); */
+}
+
+div.boxDescription {
+  font-family: 'Work Sans';
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+h2.descriptionText {
+  font-family: 'Work Sans';
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+h2.descriptionText2 {
+  font-family: 'Work Sans';
+  color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+div.buttonOsWrapper {
+  font-family: 'Genesys';
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+div.buttonToken {
+  font-family: 'Genesys';
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+button.buttonOs {
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+img.Image1, img.Image2, img.Image3 {
+  /* filter: drop-shadow(0 0 0.75rem rgba(18, 16, 75, 0.3)); */
+  border: 10px solid rgba(18, 16, 75, 0.3);
+
+}
+
+div.BackgroundBlurPurpel {
+  z-index: 0;
+  top: 310px;
+  left: 100px;
+  filter: blur(60px);
+  backdrop-filter: blur(10px);
+  background-image: linear-gradient(to right,#f011b8, #2727eb);
+  top: -100;
+  position: absolute;
+}
+
+div.BackgroundBlurPurpel2 {
+  z-index: 0;
+  top: 250px;
+  left: 50px;
+  filter: blur(60px);
+  backdrop-filter: blur(600px);
+  background-image: linear-gradient(to right,#f011b8, #2727eb);
+  top: -100;
+  position: absolute;
+}
+
+div.leftBlur {
+  z-index: 0;
+  bottom: -520px;
+  left: 0px;
+  filter: blur(100px);
+  backdrop-filter: blur(30px);
+  opacity: 0.2;
+  background-image: linear-gradient(to right,#5f1be6, #2727eb);
+  border-radius: 500px;
+  width: 400px;
+  height: 400px;
+}
+
+.photoWrapper {
+  /* top: -100px; */
+  
+  padding-top: 100px;
+  /* background-color: yellow; */
+
+}
+
+section div.section3Title, section div.section4Title, section div.section5Title, h2.section6Title, h2.section7Title, h2.section8Title {
+  font-family: 'Genesys';
+  color: white;
+  font-size: 40px;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+
+section div.boxLeft {
+  width: 70%;
+}
+
+section div.boxLeft2 {
+  width: 70%;
+}
+section div.boxSectionFive {
+  width: 150%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -160px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.boxRight {
+  width: 100%;
+}
+
+section.section5, section.section6, section.section8 {
+  background-color: #040427;
+  width: 100%;
+
+}
+
+
+
+section div.boxRow {
+  display:flex;
+  width: 100%;
+}
+
+div.boxBehind {
+  background-image: linear-gradient(#3d82eb, #040427);
+  filter: blur(60px);
+  backdrop-filter: blur(600px);
+  width: 400px;
+  height: 450px;
+  border-radius: 200px;
+  z-index: 0;
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: -30px;
+}
+
+img.bigCoin {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: -330px;
+}
+
+h2.contractText {
+  font-family: 'Hack';
+  font-size: 16px;
+  height: 21px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+h2.codeText {
+  font-family: 'Genesys';
+  font-size: 16px;
+  height: 21px;
+  color: white;
+}
+
+div.sectionContract {
+  width: 70%;
+  position: relative;
+  top: -270px;
+  left: 360px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+div.boxContract {
+  position: relative;
+  width: 550px;
+  height: 89px;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* top: -250px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.boxChild {
+  position: relative;
+  width: 129px;
+  height: 82px;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  /* top: -200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* border-width: 1px solid white; */
+  border-left: 1px solid rgba(21, 67, 221, 0.2);
+  border-bottom: 1px solid rgba(126, 125, 125, 0.2);
+  border-right: 1px solid rgba(126, 125, 125, 0.2);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+div.dataBoxBlur{
+  position: relative;
+  top: -80px;
+  width: 129px;
+  height: 82px;
+  background-image: linear-gradient(to right, #3d82eb,  #131363);
+  filter: blur(10px);
+  backdrop-filter: blur(10px);
+  opacity: 0.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  margin-left: 10px;
+}
+
+h2.dataTitle {
+  font-family: 'Hack';
+  font-size: 14px;
+  height: 21px;
+  color: white;
+  z-index: 1;
+}
+
+h2.dataValue {
+  font-family: 'Genesys';
+  font-size: 14px;
+  height: 21px;
+  color: white;
+  z-index: 1;
+}
+
+.boxCarousel {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+div.cardImage{
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30px;
+  margin-left: 210px;
+  margin-bottom: 20px;
+}
+
+div.NameBox {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h2.userName {
+  font-family: 'Genesys';
+  font-size: 20px;
+  height: 24px;
+  color: white;
+  z-index: 1;
+}
+h2.position {
+  font-family: 'Work Sans';
+  font-size: 14px;
+  height: 18px;
+  color: white;
+  z-index: 1;
+}
+img.userImage {
+  width: 200px;
+  height: 300px;
+}
+
+div.roadMap{
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2.buttonFuturePast {
+  font-family: 'Genesys';
+  font-size: 18px;
+  height: 22px;
+  color: white;
+  z-index: 1;
+}
+
+div.boxList1{
+    width: 278px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+div.boxList2{
+  width: 278px;
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+div.boxList3{
+  width: 278px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+h2.listItemQ1{
+  font-family: 'Work Sans';
+  font-size: 14px;
+  height: 18px;
+  color: white;
+  z-index: 1;
+}
+
+div.latestArticles{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2.showAll {
+  font-family: 'Work Sans';
+  color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color:  white;
+  margin-top: -20px;
+}
+
+div.cardArticles {
+  width: 263px;
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+img.articlesImage {
+  width: 250px;
+  height: 240px;
+}
+
+div.boxNews {
+  width: 100%;
+  padding-left: 6px;
+  margin-top: 8px;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  color:  #C4C4C4;
+}
+
+div.titleArticleBox {
+  width: 100%;
+  padding-left: 6px;
+  margin-top: 8px;
+  font-family: 'Genesys';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color:  white;
+}
+
+div.readMore {
+  width: 100%;
+  padding-left: 6px;
+  margin-top: 8px;
+  font-family: 'Genesys';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color:  white;
+  text-decoration: underline;
+}
+
+div.cardWrapper {
+  width: 80%;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
+
+
+/* css HD Style */
+
+@media (min-width: 1800px){
+
+section div.boxSectionFive {
+  width: 200%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -360px;
+  top: 100px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+img.bigCoin {
+  position: relative;
+  width: 400px;
+  height: 430px;
+  top: 40px;
+  /* background-color: #fff; */
+  }
+div.boxBehind {
+  background-image: linear-gradient(#3d82eb, #040427);
+  filter: blur(60px);
+  backdrop-filter: blur(500px);
+  width: 500px;
+  height: 550px;
+  border-radius: 200px;
+  z-index: 0;
+  display: flex;
+  position: absolute;
+  left: 50px;
+}
+
+div.sectionContract {
+  width: 70%;
+  position: relative;
+  /* top: -270px; */
+  left: 460px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+
+}
