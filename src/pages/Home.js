@@ -272,7 +272,7 @@ executeScroll = (ref) => ref.current.scrollIntoView()
           </div>
         </section>
 
-        <footer className='footer'>
+        <footer className='footer h-screen'>
 
         </footer>
         </div>
