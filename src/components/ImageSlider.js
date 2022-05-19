@@ -11,7 +11,7 @@ export default function ImageSlider() {
     className='boxCarousel'>
         {team.map((people, indek) => {
             return <div key={people.id} className='cardImage'>
-                    <img src={people.images} />
+                    <img src={people.images} alt="ini foto" />
                     <h1 className="legend">{people.name}</h1>
                     <h2>{people.position}</h2>
                 </div>
