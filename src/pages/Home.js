@@ -72,10 +72,10 @@ executeScroll = (ref) => ref.current.scrollIntoView()
             <div className='firstSection w-4/5 h-4/5'>
                 <div className='flex flex-col justify-center items-center mb-6'>
                   {this.state.headline ? <Flip bottom>
-                    <div className='centerTitle text-center'>Feel the new</div>
+                    <div className='centerTitle text-center text-xl'>Feel the new</div>
                   </Flip>: <div className='centerTitle text-center'></div>}
                   {this.state.headline ?<Flip top>
-                    <div className='centerTitle text-center'>social life experience</div>
+                    <div className='centerTitle text-center text-xl'>social life experience</div>
                   </Flip>: null}
                 </div>
                 {this.state.description ?<Slide bottom>
