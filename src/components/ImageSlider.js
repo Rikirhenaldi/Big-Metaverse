@@ -8,8 +8,7 @@ export default function ImageSlider() {
     <Carousel
     showIndicators={true}
     showThumbs={false}
-
-    className='w-44 h-44'>
+    className='boxCarousel'>
         {team.map((people, indek) => {
             return <div key={people.id} className='cardImage'>
                     <img src={people.images} />

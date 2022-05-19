@@ -11,19 +11,15 @@ import gameplay2 from '../assets/images/gameplay2.png'
 import gameplay3 from '../assets/images/gameplay3.png'
 import Slide from 'react-reveal/Slide';
 import Flip from 'react-reveal/Flip';
-import Flash from 'react-reveal/Flash';
 import SectionFiveRight from '../components/SectionFiveRight'
-import { data, team, textList1, textList2, textList3, article } from '../dataDummy/data'
+import { textList1, textList2, textList3, article } from '../dataDummy/data'
 import SectionFiveContract from '../components/SectionFiveContract'
-import ImageSlider from '../components/ImageSlider'
-import sampleImage from '../assets/images/exampleProfile.png'
-import { Carousel } from 'react-responsive-carousel';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io'
 import {AiOutlineCheck} from 'react-icons/ai'
 import {BiLoader} from 'react-icons/bi'
-import articlesImage from '../assets/images/articles1.png'
 import { Link } from 'react-router-dom'
 import coin from '../assets/images/sampleCoin.png'
+import ImageSlider from '../components/ImageSlider'
 
 
 class Home extends React.Component {
@@ -76,10 +72,10 @@ executeScroll = (ref) => ref.current.scrollIntoView()
             <div className='firstSection w-4/5 h-4/5'>
                 <div className='flex flex-col justify-center items-center mb-6'>
                   {this.state.headline ? <Flip bottom>
-                    <h1 className='centerTitle text-center'>Feel the new</h1>
-                  </Flip>: <h1 className='centerTitle text-center'></h1>}
+                    <div className='centerTitle text-center'>Feel the new</div>
+                  </Flip>: <div className='centerTitle text-center'></div>}
                   {this.state.headline ?<Flip top>
-                    <h1 className='centerTitle text-center'>social life experience</h1>
+                    <div className='centerTitle text-center'>social life experience</div>
                   </Flip>: null}
                 </div>
                 {this.state.description ?<Slide bottom>
@@ -113,7 +109,6 @@ executeScroll = (ref) => ref.current.scrollIntoView()
                     <button 
                     className='rounded-md w-48 h-14 bg-clip-padding justify-center align-center relative -left-48 uppercase text-sm'
                     >
-                      <h1></h1>
                     </button>
                   </div>
                 }
@@ -175,21 +170,7 @@ executeScroll = (ref) => ref.current.scrollIntoView()
             <div>
                 <h2 className='section6Title'>Our Team</h2>
             </div>
-            <Carousel
-            showIndicators={true}
-            showThumbs={false}   
-            className='boxCarousel' 
-            >
-              {team.map((user, index) => {
-                return <div className='cardImage' id={user.id}>
-                        <img src={user.images} className='userImage'/>
-                        <div className='NameBox'>
-                          <h2 className='userName'>{user.name}</h2>
-                          <h2 className='position'>{user.position}</h2>
-                        </div>
-                      </div>
-              })}
-            </Carousel>
+            <ImageSlider/>
         </section>
 
         <section className='section7 flex flex-col items-center h-screen mt-20'>
@@ -255,7 +236,7 @@ executeScroll = (ref) => ref.current.scrollIntoView()
             {article.map((i) => {
               return <Link>
                   <div className="cardArticles flex flex-col justify-center items-center box-content pt-4 pl-2 pr-2 ">
-                    <img src={i.image} className='articlesImage'/>
+                    <img src={i.image} className='articlesImage' alt=''/>
                     <div className='boxNews'>
                       <h2>{i.type}</h2>
                     </div>

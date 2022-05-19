@@ -1,20 +1,18 @@
-import React, {useState, setState } from 'react'
-import {ImAppleinc, ImWindows8} from 'react-icons/im'
-import { useSpring, animated, config } from 'react-spring'
+import React from 'react'
 
 
 export default function SectionFiveLeft() {
 
-  const [flip, set] = useState(false)
-  const props = useSpring({
-    to: { opacity: 0.5 },
-    from: { opacity: 0 },
-    reset: true,
-    reverse: flip,
-    delay: 300,
-    config: config.molasses,
-    onRest: () => set(!flip),
-  })
+  // const [flip, set] = useState(false)
+  // const props = useSpring({
+  //   to: { opacity: 0.5 },
+  //   from: { opacity: 0 },
+  //   reset: true,
+  //   reverse: flip,
+  //   delay: 300,
+  //   config: config.molasses,
+  //   onRest: () => set(!flip),
+  // })
 
   return (
     <section>

@@ -1,4 +1,4 @@
-import React, {useState, setState} from 'react'
+import React, {useState} from 'react'
 import Image1 from '../assets/images/1.svg'
 import Image2 from '../assets/images/2.svg'
 import Image3 from '../assets/images/3.svg'

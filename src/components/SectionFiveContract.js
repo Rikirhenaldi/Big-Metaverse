@@ -1,4 +1,4 @@
-import React, {state, useState} from 'react'
+import React, {useState} from 'react'
 import { data } from '../dataDummy/data'
 import { useSpring, animated, config } from 'react-spring'
 

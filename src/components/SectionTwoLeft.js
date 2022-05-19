@@ -1,4 +1,4 @@
-import React, {useState, setState } from 'react'
+import React, {useState} from 'react'
 import {ImAppleinc, ImWindows8} from 'react-icons/im'
 import { useSpring, animated, config } from 'react-spring'
 
